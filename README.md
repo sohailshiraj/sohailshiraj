@@ -1,16 +1,19 @@
 ### Hi there 👋
 
-<!--
-**sohailshiraj/sohailshiraj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+##### Get Profile
+```.js
+const profile = await fetch('/get/profile/sohailshiraj');
+```
+##### Response
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```.json
+{
+  "name": "Sohail Shiraj",
+  "location": "Waterloo, Ontario",
+  "profession": "Software Engineer",
+  "dev_stack": [
+    "javascript", "typescript", "angular", "nodejs", "MongoDB", "react", "MySQL",  "git", 
+    "Docker", "Unit testing", "AWS", "python"
+  ]
+}
+```
