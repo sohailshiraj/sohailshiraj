@@ -12,7 +12,7 @@ const profile = await fetch('/get/profile/sohailshiraj');
   "location": "Waterloo, Ontario",
   "profession": "Software Engineer",
   "dev_stack": [
-    "javascript", "typescript", "angular", "nodejs", "MongoDB", "react", "MySQL",  "git", 
+    "javascript", "typescript", "next.js", "react,js", "angular", "nodejs", "MongoDB", "MySQL", "git", 
     "Docker", "Unit testing", "AWS", "python"
   ]
 }
